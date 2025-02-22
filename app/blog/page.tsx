@@ -1,6 +1,3 @@
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
-import Image from "next/image"
 import { BlogCard } from "@/components/blog/blog-card"
 import { blogPosts } from "@/lib/blog-data"
 
