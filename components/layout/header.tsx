@@ -6,9 +6,9 @@ import Link from "next/link"
 export default function Header() {
   const navigation = [
     { name: "home", href: "/" },
+    { name: "blogs", href: "/blogs" },
     { name: "services", href: "/services" },
     { name: "about", href: "/about" },
-    { name: "case studies", href: "/case-studies" },
     { name: "contact", href: "/contact" },
   ]
 
@@ -29,8 +29,8 @@ export default function Header() {
               {item.name}
             </Link>
           ))}
-          <Button asChild size="sm">
-            <Link href="/contact">get started</Link>
+          <Button size="sm">
+            Contact Us
           </Button>
         </div>
       </nav>
