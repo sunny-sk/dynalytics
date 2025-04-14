@@ -1,6 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Services | Dynalytics',
@@ -341,7 +340,7 @@ export default function ServicesPage() {
           <div className="p-10 md:p-16">
             <h2 className="text-3xl font-bold mb-6 text-center">Ready to Transform Your Data?</h2>
             <p className="text-lg mb-8 text-center max-w-3xl mx-auto">
-              Let's discuss how our data analytics services can help your organization make better decisions, 
+              Let&apos;s discuss how our data analytics services can help your organization make better decisions, 
               optimize operations, and drive growth.
             </p>
             <div className="flex justify-center">
@@ -361,8 +360,8 @@ export default function ServicesPage() {
             <div className="bg-white p-8 rounded-xl shadow-md relative">
               <div className="absolute -top-4 left-8 w-8 h-8 bg-indigo-500 transform rotate-45"></div>
               <p className="text-gray-600 italic mb-6">
-                "Dynalytics transformed our approach to customer data. Their analytics solution helped us 
-                identify key trends that increased our customer retention by 27% in just six months."
+              &quot;Dynalytics transformed our approach to customer data. Their analytics solution helped us 
+                identify key trends that increased our customer retention by 27% in just six months.&quot;
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-4">
@@ -381,8 +380,8 @@ export default function ServicesPage() {
             <div className="bg-white p-8 rounded-xl shadow-md relative">
               <div className="absolute -top-4 left-8 w-8 h-8 bg-indigo-500 transform rotate-45"></div>
               <p className="text-gray-600 italic mb-6">
-                "The predictive analytics model developed by Dynalytics has been a game-changer for our 
-                inventory management. We've reduced costs by 18% while improving product availability."
+              &quot;The predictive analytics model developed by Dynalytics has been a game-changer for our 
+                inventory management. We&apos;ve reduced costs by 18% while improving product availability.&quot;
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-4">
@@ -401,8 +400,8 @@ export default function ServicesPage() {
             <div className="bg-white p-8 rounded-xl shadow-md relative">
               <div className="absolute -top-4 left-8 w-8 h-8 bg-indigo-500 transform rotate-45"></div>
               <p className="text-gray-600 italic mb-6">
-                "Working with Dynalytics has given us confidence in our data strategy. Their team's expertise 
-                and collaborative approach made the entire process smooth and effective."
+              &quot;Working with Dynalytics has given us confidence in our data strategy. Their team&apos;s expertise 
+                and collaborative approach made the entire process smooth and effective.&quot;
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-4">
@@ -421,8 +420,8 @@ export default function ServicesPage() {
             <div className="bg-white p-8 rounded-xl shadow-md relative">
               <div className="absolute -top-4 left-8 w-8 h-8 bg-indigo-500 transform rotate-45"></div>
               <p className="text-gray-600 italic mb-6">
-                "The custom dashboard Dynalytics created has become an essential tool for our executive team. 
-                It provides real-time insights that drive our strategic decisions every day."
+              &quot;The custom dashboard Dynalytics created has become an essential tool for our executive team. 
+                It provides real-time insights that drive our strategic decisions every day.&quot;
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-4">
@@ -449,7 +448,7 @@ export default function ServicesPage() {
               <p className="text-gray-600">
                 Implementation timelines vary based on the complexity of your needs and the state of your existing data infrastructure. 
                 Simple dashboard projects can be completed in 2-4 weeks, while comprehensive analytics platforms might take 2-3 months. 
-                During our initial consultation, we'll provide a more specific timeline for your project.
+                During our initial consultation, we&apos;ll provide a more specific timeline for your project.
               </p>
             </div>
             
@@ -467,7 +466,7 @@ export default function ServicesPage() {
               <p className="text-gray-600">
                 Data security is our top priority. We implement industry-leading security measures including encryption, 
                 secure authentication, regular security audits, and compliance with relevant data protection regulations. 
-                We're happy to discuss our security protocols in detail during our consultation.
+                We&apos;re happy to discuss our security protocols in detail during our consultation.
               </p>
             </div>
             
@@ -475,7 +474,7 @@ export default function ServicesPage() {
               <h3 className="text-xl font-bold mb-3 text-gray-800">Can your solutions integrate with our existing systems?</h3>
               <p className="text-gray-600">
                 Yes, our solutions are designed to integrate seamlessly with a wide range of existing systems and data sources. 
-                Whether you're using CRM software, ERP systems, or custom applications, we can build connectors to ensure 
+                Whether you&apos;re using CRM software, ERP systems, or custom applications, we can build connectors to ensure 
                 smooth data flow and unified analytics.
               </p>
             </div>

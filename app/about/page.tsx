@@ -1,6 +1,5 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'About Dynalytics',
@@ -86,7 +85,7 @@ export default function AboutPage() {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-gray-800">Innovation</h3>
-                <p className="text-gray-600 leading-relaxed">We continuously push the boundaries of what's possible in data analytics, 
+                <p className="text-gray-600 leading-relaxed">We continuously push the boundaries of what&apos;s possible in data analytics, 
                    embracing new technologies and methodologies.</p>
               </div>
             </div>
@@ -115,7 +114,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-gray-800">Integrity</h3>
                 <p className="text-gray-600 leading-relaxed">We uphold the highest standards of data privacy and security, ensuring that 
-                   our clients' information is always protected.</p>
+                   our clients&apos; information is always protected.</p>
               </div>
             </div>
           </div>
