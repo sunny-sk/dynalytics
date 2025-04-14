@@ -1,33 +1,70 @@
-import Image from 'next/image'
+'use client'
+import Image from "next/image";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay"
 
 export default function HeroSection() {
   return (
     // Making hero section more mobile-friendly
     <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16 md:py-32 relative overflow-hidden">
-      <div className="container mx-auto px-4">
+      <div className="container px-10 mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
           <div className="flex-1 z-10 text-center md:text-left">
             <h1 className="text-3xl md:text-5xl font-bold mb-4 md:mb-6">
-              data-driven solutions for modern businesses
+              Data-driven solutions for modern businesses
             </h1>
             <p className="text-lg md:text-xl mb-6 md:mb-8 max-w-2xl">
-              transform your business with advanced analytics, custom software solutions, and expert consulting services
+              transform your business with advanced analytics, custom software
+              solutions, and expert consulting services
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               {/* ... buttons ... */}
             </div>
           </div>
           <div className="flex-1 relative z-10 w-full max-w-lg mx-auto">
-            <Image
-              src="/images/hero-dashboard.png"
-              alt="Analytics Dashboard"
-              width={600}
-              height={400}
-              className="rounded-lg shadow-2xl"
-            />
+            <Carousel       plugins={[
+        Autoplay({
+          delay: 2000,
+        }),
+      ]}
+>
+              <CarouselContent>
+                <CarouselItem>
+                  <Image
+                    src="/images/1.svg"
+                    alt="Analytics Dashboard"
+                    width={600}
+                    height={400}
+                    className="rounded-lg"
+                  />
+                </CarouselItem>
+                <CarouselItem>
+                  <Image
+                    src="/images/2.svg"
+                    alt="Analytics Dashboard"
+                    width={600}
+                    height={400}
+                    className="rounded-lg"
+                  />
+                </CarouselItem>
+                <CarouselItem>
+                  <Image
+                    src="/images/3.svg"
+                    alt="Analytics Dashboard"
+                    width={600}
+                    height={400}
+                    className="rounded-lg"
+                  />
+                </CarouselItem>
+              </CarouselContent>
+            </Carousel>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

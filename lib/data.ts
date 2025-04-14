@@ -1,8 +1,8 @@
 export const services = [
     {
-        title: "custom software development",
+        title: "Custom software development",
         slug: "custom-software",
-        image: "/images/services/custom-software.jpg",
+        image: "/images/custom-software-development.svg",
         description: "tailored solutions designed to address your unique business challenges",
         features: [
           "web & mobile applications",
@@ -24,9 +24,9 @@ export const services = [
         ]
       },
       {
-        title: "digital transformation",
+        title: "Digital transformation",
         slug: "digital-transformation",
-        image: "/images/services/digital-transform.jpg",
+        image: "/images/digital-transformation.svg",
         description: "modernize your business with cutting-edge technology",
         features: [
           "process automation",

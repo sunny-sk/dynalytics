@@ -9,7 +9,7 @@ export default function ServicesSection() {
     <section className="py-12 md:py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-8 md:mb-16">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6">our services</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6">Our services</h2>
           <p className="text-base md:text-lg text-gray-600">
             we provide comprehensive solutions to help businesses thrive in the digital age
           </p>
@@ -25,7 +25,7 @@ export default function ServicesSection() {
                   src={service.image}
                   alt={service.title}
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="object-contains group-hover:scale-100 transition-transform duration-300"
                 />
               </div>
               <h3 className="text-lg md:text-xl font-semibold mb-3">{service.title}</h3>

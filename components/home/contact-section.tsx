@@ -20,16 +20,9 @@ export default function ContactSection() {
   }
 
   return (
-    <section className="py-24 bg-gray-50">
+    <section className="bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">get in touch</h2>
-            <p className="text-gray-600">
-              ready to start your digital transformation? reach out to us today
-            </p>
-          </div>
-
           <div className="bg-white p-8 rounded-lg shadow-lg">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
@@ -90,21 +83,6 @@ export default function ContactSection() {
                 send message
               </Button>
             </form>
-          </div>
-
-          <div className="mt-12 grid md:grid-cols-3 gap-8 text-center">
-            <div>
-              <h3 className="font-semibold mb-2">email us</h3>
-              <p className="text-gray-600">hello@dynalytics.com</p>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-2">call us</h3>
-              <p className="text-gray-600">(555) 123-4567</p>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-2">visit us</h3>
-              <p className="text-gray-600">san francisco, ca</p>
-            </div>
           </div>
         </div>
       </div>

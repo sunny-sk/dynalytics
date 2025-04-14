@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-white text-lg font-bold mb-4">dynalytics</h3>
+            <h3 className="text-white text-lg font-bold mb-4">Dynalytics</h3>
             <p className="text-sm">transforming businesses through innovative software solutions</p>
           </div>
           

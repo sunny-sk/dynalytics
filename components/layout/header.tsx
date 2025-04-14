@@ -5,18 +5,17 @@ import Link from "next/link"
 
 export default function Header() {
   const navigation = [
-    { name: "home", href: "/" },
-    { name: "blogs", href: "/blogs" },
-    { name: "services", href: "/services" },
-    { name: "about", href: "/about" },
-    { name: "contact", href: "/contact" },
+    { name: "Home", href: "/" },
+    { name: "Blogs", href: "/blogs" },
+    { name: "Services", href: "/services" },
+    { name: "About", href: "/about" },
   ]
 
   return (
     <header className="fixed w-full bg-white/80 backdrop-blur-md z-50 border-b">
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="text-xl font-bold text-blue-600">
-          dynalytics
+          Dynalytics
         </Link>
         
         <div className="hidden md:flex items-center gap-8">
