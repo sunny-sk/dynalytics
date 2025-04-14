@@ -11,16 +11,16 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="text-white font-semibold mb-4">services</h4>
+            <h4 className="text-white font-semibold mb-4">Development</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/services/software-development" className="hover:text-white transition-colors">custom software</Link></li>
-              <li><Link href="/services/data-analytics" className="hover:text-white transition-colors">data analytics</Link></li>
-              <li><Link href="/services/digital-transformation" className="hover:text-white transition-colors">digital transformation</Link></li>
+              <li><Link href="/services/software-development" className="hover:text-white transition-colors">Custom Software</Link></li>
+              <li><Link href="/services/data-analytics" className="hover:text-white transition-colors">Web Development</Link></li>
+              <li><Link href="/services/digital-transformation" className="hover:text-white transition-colors">Mobile App Development</Link></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="text-white font-semibold mb-4">company</h4>
+            <h4 className="text-white font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-sm">
               <li><Link href="/about" className="hover:text-white transition-colors">about us</Link></li>
               <li><Link href="/case-studies" className="hover:text-white transition-colors">case studies</Link></li>
@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="text-white font-semibold mb-4">contact</h4>
+            <h4 className="text-white font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-sm">
               <li>email: hello@dynalytics.com</li>
               <li>phone: (555) 123-4567</li>

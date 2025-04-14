@@ -1,8 +1,8 @@
 
 import HeroSection from "@/components/home/hero-section"
 import ContactSection from "@/components/home/contact-section"
-import ProductDemo from "@/components/home/product-demo"
 import ServicesSection from "@/components/home/service-section"
+import IndustriesSection from "@/components/home/industries-section"
 import { Metadata } from "next"
 import MapComponent from "@/components/home/map-component"
 import TechStack from "@/components/home/tech-stack"
@@ -17,6 +17,7 @@ export default function Home() {
     <main className="min-h-screen">
       <HeroSection />
       <ServicesSection />
+      <IndustriesSection />
       <TechStack />
       <section className="relative">
         <div className="absolute inset-0">

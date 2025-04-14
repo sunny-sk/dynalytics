@@ -1,7 +1,8 @@
 'use client'
-
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import { useEffect } from "react"
+import mixpanel from "mixpanel-browser";
 
 export default function Header() {
   const navigation = [
@@ -10,6 +11,20 @@ export default function Header() {
     { name: "Services", href: "/services" },
     { name: "About", href: "/about" },
   ]
+
+  useEffect(() => {
+    mixpanel.init(process.env.MIXPANEL_TOKEN!, {
+      debug: true,
+      track_pageview: true,
+      persistence: "localStorage",
+    });
+  
+    return () => {
+    }
+  }, [])
+  
+
+
 
   return (
     <header className="fixed w-full bg-white/80 backdrop-blur-md z-50 border-b">
