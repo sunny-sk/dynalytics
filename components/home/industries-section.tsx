@@ -6,37 +6,37 @@ export default function IndustriesSection() {
     {
       name: 'Healthcare',
       description: 'Custom solutions for patient management, medical data analysis, and healthcare operations',
-      icon: '/images/industries/healthcare.svg',
+      icon: '/industries/healthcare.png',
       link: '/industries/healthcare'
     },
     {
       name: 'Finance',
       description: 'Secure platforms for financial analysis, transaction processing, and regulatory compliance',
-      icon: '/images/industries/finance.svg',
+      icon: '/industries/finance.png',
       link: '/industries/finance'
     },
     {
       name: 'Retail',
       description: 'Omnichannel solutions for inventory management, customer engagement, and sales analytics',
-      icon: '/images/industries/retail.svg',
+      icon: '/industries/retail.png',
       link: '/industries/retail'
     },
     {
       name: 'Manufacturing',
-      description: 'IoT and automation systems for production optimization, quality control, and supply chain',
-      icon: '/images/industries/manufacturing.svg',
+      description: 'Automation systems for production optimization, quality control, and supply chain',
+      icon: '/industries/manufacturing.png',
       link: '/industries/manufacturing'
     },
     {
       name: 'Education',
       description: 'Learning platforms, student management systems, and educational analytics tools',
-      icon: '/images/industries/education.svg',
+      icon: '/industries/education.png',
       link: '/industries/education'
     },
     {
       name: 'Technology',
       description: 'Cutting-edge solutions for SaaS platforms, cloud infrastructure, and tech startups',
-      icon: '/images/industries/technology.svg',
+      icon: '/industries/Technology.png',
       link: '/industries/technology'
     }
   ];
@@ -54,7 +54,7 @@ export default function IndustriesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {industries.map((industry) => (
             <Link 
-              href={industry.link} 
+              href={'#'} 
               key={industry.name}
               className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 flex flex-col items-center text-center"
             >

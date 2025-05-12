@@ -7,7 +7,7 @@ import mixpanel from "mixpanel-browser";
 export default function Header() {
   const navigation = [
     { name: "Home", href: "/" },
-    { name: "Blogs", href: "/blogs" },
+    // { name: "Blogs", href: "/blogs" },
     { name: "Services", href: "/services" },
     { name: "About", href: "/about" },
   ]
@@ -22,9 +22,6 @@ export default function Header() {
     return () => {
     }
   }, [])
-  
-
-
 
   return (
     <header className="fixed w-full bg-white/80 backdrop-blur-md z-50 border-b">

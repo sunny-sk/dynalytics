@@ -8,10 +8,7 @@ export default function TechStack() {
     { name: 'Python', logo: '/images/tech/python.svg' },
     { name: 'AWS', logo: '/images/tech/aws.svg' },
     { name: 'MongoDB', logo: '/images/tech/mongodb.svg' },
-    { name: 'PostgreSQL', logo: '/images/tech/postgresql.svg' },
-    { name: 'TensorFlow', logo: '/images/tech/tensorflow.svg' },
     { name: 'Docker', logo: '/images/tech/docker.svg' },
-    { name: 'Kubernetes', logo: '/images/tech/kubernetes.svg' },
   ];
 
   return (

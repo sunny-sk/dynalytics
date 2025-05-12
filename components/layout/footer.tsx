@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-white text-lg font-bold mb-4">Dynalytics</h3>
-            <p className="text-sm">transforming businesses through innovative software solutions</p>
+            <p className="text-sm">Transforming businesses through innovative software solutions</p>
           </div>
           
           <div>
@@ -23,7 +23,6 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-sm">
               <li><Link href="/about" className="hover:text-white transition-colors">about us</Link></li>
-              <li><Link href="/case-studies" className="hover:text-white transition-colors">case studies</Link></li>
               <li><Link href="/contact" className="hover:text-white transition-colors">contact</Link></li>
             </ul>
           </div>
@@ -39,7 +38,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-8 text-sm text-center">
-          <p>&copy; {new Date().getFullYear()} dynalytics. all rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Dynalytics. all rights reserved.</p>
         </div>
       </div>
     </footer>
