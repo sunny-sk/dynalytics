@@ -40,9 +40,11 @@ export default function Header() {
               {item.name}
             </Link>
           ))}
-          <Button size="sm">
-            Contact Us
-          </Button>
+          <Link href={'/contact-us'}>
+            <Button size="sm">
+              Contact Us
+            </Button>
+          </Link>
         </div>
       </nav>
     </header>

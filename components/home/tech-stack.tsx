@@ -21,7 +21,7 @@ export default function TechStack() {
           </p>
         </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {technologies.map((tech) => (
             <div key={tech.name} className="flex flex-col items-center justify-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="h-16 w-16 relative mb-4">
