@@ -144,8 +144,8 @@ export default function ProjectsSection() {
             {projects.map((_, index) => (
               <div 
                 key={index} 
-                className={`w-3 h-3 rounded-full ${index === activeProject - 1 ? 'bg-blue-400' : 'bg-blue-800/50'}`}
-              />
+                className={`w-3 h-3 rounded-full ${activeProject && index === activeProject - 1 ? 'bg-blue-400' : 'bg-blue-800/50'}`}
+                />
             ))}
           </div>
         </div>
