@@ -15,7 +15,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-5xl md:text-6xl font-bold mb-4 text-center">About Dynalytics</h1>
           <p className="text-xl text-center max-w-3xl mx-auto">
-            Transforming data into insights, insights into action
+          Your Idea, Our Code, Real Impact
           </p>
         </div>
       </div>
@@ -52,7 +52,7 @@ export default function AboutPage() {
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold mb-6 text-blue-700">Our Story</h2>
               <p className="text-lg mb-6 text-gray-700 leading-relaxed">
-                Founded in 2023, Dynalytics emerged from a simple observation: despite the abundance of data, 
+                Founded in 2024, Dynalytics emerged from a simple observation: despite the abundance of data, 
                 many organizations struggle to extract meaningful insights from it. Our founders, with backgrounds 
                 in data science and user experience design, set out to bridge this gap.
               </p>
@@ -85,8 +85,7 @@ export default function AboutPage() {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-gray-800">Innovation</h3>
-                <p className="text-gray-600 leading-relaxed">We continuously push the boundaries of what&apos;s possible in data analytics, 
-                   embracing new technologies and methodologies.</p>
+                <p className="text-gray-600 leading-relaxed">We push boundaries by embracing cutting-edge technologies and fresh thinking—constantly evolving to deliver smarter, faster, and more impactful data solutions.</p>
               </div>
             </div>
             

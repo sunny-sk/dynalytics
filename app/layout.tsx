@@ -17,6 +17,11 @@ export default function RootLayout({
   console.log(process.env.NODE_ENV)
   return (
     <html lang="en">
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+      </head>
       <body>
         <Header />
         <main className="pt-16">

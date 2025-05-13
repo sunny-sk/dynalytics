@@ -2,6 +2,7 @@
 import HeroSection from "@/components/home/hero-section"
 import ServicesSection from "@/components/home/service-section"
 import IndustriesSection from "@/components/home/industries-section"
+import ProjectsSection from "@/components/home/projects-section"
 import { Metadata } from "next"
 import TechStack from "@/components/home/tech-stack"
 
@@ -16,6 +17,7 @@ export default function Home() {
       <HeroSection />
       <IndustriesSection />
       <ServicesSection />
+      <ProjectsSection />
       <TechStack />
     </main>
   )
